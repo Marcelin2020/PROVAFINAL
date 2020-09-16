@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+</head>
+<body>
+<div class="container">
+   <h1>Cadastro de Alunos</h1>
+   <form class="row">
+        <div class="col-3.">
+           <label>Nome:</label>
+           <input type="text" name="nome" class="form-control"/>
+        </div>
+        <div class="col-2">
+           <label>Data de Nascimento: </label>
+           <input type="date" name="data" class="form-control"/>
+         </div>
+         <div class="col-2">
+           <label>Série:</label>
+           <input type="text" name="serie" class="form-control"/>
+        </div>
+        <div class="col-2">
+           <label>Materia favorita:</label>
+           <input type="text" name="materia" class="form-control"/>
+        </div>
+        <div class="col-3">
+           <button type="submit" style="margin-top:28px" class="btn btn-primary btn-lg">Enviar</button>
+        </div>
+      </br>
+   <table style="margin-top:50px" class="table table-striped">
+      <colgroup>
+         <col width="200"> 
+         <col width="100">
+         <col width="100">
+         <col width="120">
+         <col width="100">
+         <col width="100">
+      </colgroup>
+      <thead>
+         <tr>
+            <th>Nome</th>
+            <th>Data de Nascimento</th>
+            <th>Série</th>
+            <th>Materia Favorita</th>
+            <th></th>
+            <th></th>
+         </tr>
+      </thead>
+      <tbody>
+      <tr>
+         <td>Marcelo Batsita de Menezes Junior</td>
+         <td>07/12/2003</td>
+         <td>2°Ano</td>
+         <td>Fisca</td>
+         <td>
+            <button class="btn btn-warning">Editar</button>
+         </td>
+         <td>
+            <button class="btn btn-danger">Excluir</button>
+         </td>
+      </tr>
+      <tr>
+         <td>João Pedro</td>
+         <td>22/11/2003</td>
+         <td>2°Ano</td>
+         <td>Biologia</td>
+         <td>
+            <button class="btn btn-warning">Editar</button>
+         </td>
+         <td>
+            <button class="btn btn-danger">Excluir</button>
+         </td>
+      </tr>
+      <tr>
+         <td>Rafael</td>
+         <td>10/12/2003</td>
+         <td>2°Ano</td>
+         <td>Geografia</td>
+         <td>
+            <button class="btn btn-warning">Editar</button>
+         </td>
+         <td>
+            <button class="btn btn-danger">Excluir</button>
+         </td>
+      </tr>
+      <tr>
+         <td>Julia</td>
+         <td>15/10/2003</td>
+         <td>2°Ano</td>
+         <td>Quimica</td>
+         <td>
+            <button class="btn btn-warning">Editar</button>
+         </td>
+         <td>
+            <button class="btn btn-danger">Excluir</button>
+         </td>
+      </tr>
+      </tbody>
+   </table>
+   </form>
+</div>
+</body>
+</html>
